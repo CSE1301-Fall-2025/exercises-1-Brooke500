@@ -10,6 +10,6 @@ public class E02RelationalOperators {
 		System.out.println( age < year );
 		System.out.println( age > year );
 		System.out.println( age <= year+1 );
-		System.out.println( age-1 >= year );
+		System.out.println( age-1 >= year+1 );
 	}
 }

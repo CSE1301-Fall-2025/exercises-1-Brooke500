@@ -4,8 +4,7 @@ public class E01VariableAssignment {
 	//Exercise 1: Run this code with different values of score
 	//by changing the variable assignment statement
 	public static void main(String[] args) {
-		int score;
-		score = 4;
+		int score = 65;
 		System.out.println(score);
 
 		double price = 23.25;

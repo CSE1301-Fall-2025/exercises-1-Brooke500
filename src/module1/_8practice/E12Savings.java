@@ -5,10 +5,10 @@ public class E12Savings {
 	//how many months it will take to save $200 if you earn $20 / week.
 	//Assume that there are 4 weeks per month.
     public static void main(String[] args) {
-      double goal =
-      double weeklyRate =
-      double numWeeks =
-      double numMonths =
-      System.out.println(numMonths);
+      double goal = 200.00;
+      double weeklyRate = 20.00;
+      double numWeeks = goal / weeklyRate;
+      double numMonths = numWeeks / 4;
+      System.out.println("It will take you " + numMonths + " months to save up $200.");
     }
 }

@@ -6,7 +6,7 @@ public class E01Equality {
 		int age = 15;
 		int year = 14;
 		// Will this print true or false?
-		System.out.println( age == year );
+		System.out.println( age != year );
 		year = 15;
 		// Will this print true or false?
 		System.out.println( age == year );

@@ -7,6 +7,10 @@ public class E02Triangle {
 	//Your solution must contain at least one multiplication 
 	//and one division.
 	public static void main(String[] args) {
+		double half = 1.0 / 2.0;
+		int base = 7;
+		int height = 9;
+		System.out.println("We are calculating the area of a triangle. Because the base is 7, and the height is 9, using the 1/2 * b * h formula, the area is " + (half * base * height));
 
 	}
 }
