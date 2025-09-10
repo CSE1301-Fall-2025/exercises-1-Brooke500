@@ -7,6 +7,17 @@ public class E18MessageX {
         String message = "Ix lovex youxxx";
         System.out.println(message);
 
+        int index = message.length();
+
+        while (message.indexOf("x") >= 0) {
+            index = message.indexOf("x");
+            String firstHalf = message.substring(0,index);
+            String secondHalf = message.substring(index+1);
+            message = firstHalf + secondHalf;
+            System.out.println(message);
+            
+        }
+
 
     }
 }

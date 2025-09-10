@@ -5,5 +5,10 @@ public class E16Multiply {
 	// 10 * x, with values of x ranging from 0 to 10.
     public static void main(String[] args) {
 
+        for (int x=0; x<=10; x++) {
+            int newNumber = 10 * x;
+            System.out.println(x + " times 10 = " + newNumber);
+        }
+
     }
 }

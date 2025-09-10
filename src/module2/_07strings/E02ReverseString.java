@@ -6,7 +6,7 @@ public class E02ReverseString {
 	//What would happen if you used <= instead of <? 
 	//What would happen if you changed the order in which you added the ithLetter in line 12?
 	public static void main(String[] args) {
-		String s = "Hello";
+		String s = "Poser";
 		String sReversed = "";
 		String ithLetter;
 
