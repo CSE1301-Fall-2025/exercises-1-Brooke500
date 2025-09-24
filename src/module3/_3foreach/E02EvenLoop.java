@@ -10,6 +10,11 @@ public class E02EvenLoop {
 			if (values[i] % 2 == 0) {
 				System.out.println(values[i] + " is even!");
 			}
+		for (int value : values) {
+			if (value % 2 == 0) {
+				System.out.println(value + " is even!");
+			}
+		}
 		}
 	}
 }

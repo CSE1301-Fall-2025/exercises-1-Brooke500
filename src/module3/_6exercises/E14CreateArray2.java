@@ -12,6 +12,13 @@ public class E14CreateArray2 {
 	//and so on.
     public static void main(String[] args) {
         // ADD CODE HERE //
+		int [][] shadow = {{1,2,3},{4,5,6},{7,8,9}};
+
+		for(int row = 0; row < shadow.length; row++) {
+			for(int col = 0; col < shadow[0].length; col++) {
+				System.out.print(shadow[row][col] + ",");
+			}
+		}
     }
 }
 

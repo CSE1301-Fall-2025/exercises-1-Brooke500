@@ -13,7 +13,7 @@ public class E03ArrayAccess {
 		// declare and create arrays
 		int[ ] highScores = new int[5];
 		// Print initial highScore
-		System.out.println(highScores[0]);
+		System.out.println(highScores[0]); //"go look at bucket [0]! Take the vaule from there! There's nothing there yet, so I'll print out 0"
 		// put values in highScore using an indexed variable
 		highScores[0] = 99;
 		highScores[1] = 98;
@@ -22,7 +22,9 @@ public class E03ArrayAccess {
 		highScores[4] = 68;
 
 		// Print first highScore at index 0
-		System.out.println( highScores[0] );
+		System.out.println( highScores[3] );
+
+		//vaules are the actual amount that is assigned to the bucket, and the index is which bucket it is. They both start at 0.
 
 	}
 }

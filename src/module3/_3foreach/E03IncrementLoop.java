@@ -8,9 +8,10 @@ public class E03IncrementLoop {
 	public static void main(String[] args) {
 		int[ ] values = {6, 2, 1, 7, 12, 5};
 		// Can this loop increment the values?
-		for (int val : values) {
+		for (int i=0; i < values.length; i++) {
+			int val = values[i];
 			val++;
-			System.out.println("New val: " + val);
+			values[i] = val;
 		}
 		// Print out array to see if they really changed
 		System.out.println("Array after the loop: ");

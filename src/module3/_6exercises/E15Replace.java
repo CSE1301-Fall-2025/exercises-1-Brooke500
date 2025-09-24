@@ -10,6 +10,7 @@ public class E15Replace {
 
 		for (int row = 0; row < arr.length; row++) {
 			for (int col = 0; col < arr[1].length; col++) {
+				arr[0][2] = "yellow";
 				System.out.println(arr[row][col]);
 			}
 		}

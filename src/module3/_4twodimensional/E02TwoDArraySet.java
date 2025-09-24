@@ -9,8 +9,8 @@ public class E02TwoDArraySet {
 		String[][] seatingChart;
 
 		// create arrays
-		ticketInfo = new int [2][3];
-		seatingChart =  new String [3][2];
+		ticketInfo = new int [2][4];
+		seatingChart =  new String [3][3];
 
 		// initialize the array elements
 		ticketInfo[0][0] = 15;
@@ -19,16 +19,18 @@ public class E02TwoDArraySet {
 		ticketInfo[1][0] = 25;
 		ticketInfo[1][1] = 20;
 		ticketInfo[1][2] = 25;
+		ticketInfo[1][3] = 15;
 		seatingChart[0][0] = "Jamal";
 		seatingChart[0][1] = "Maria";
 		seatingChart[1][0] = "Jacob";
 		seatingChart[1][1] = "Suzy";
 		seatingChart[2][0] = "Emma";
 		seatingChart[2][1] = "Luke";
+		seatingChart[2][2] = "Roslyn";
 
 		// print the contents
-		System.out.println(ticketInfo);
-		System.out.println(seatingChart);
+		System.out.println(ticketInfo [1][3]);
+		System.out.println(seatingChart [2][2]);
 	}
 }
 

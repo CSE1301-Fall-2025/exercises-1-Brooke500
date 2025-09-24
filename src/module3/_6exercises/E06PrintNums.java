@@ -8,5 +8,7 @@ public class E06PrintNums {
 
 		// ADD CODE HERE //
 
+		System.out.print( arr[0][0] + ", " + arr[1][0] + ", and " + arr[1][2]);
+
 	}
 }
